@@ -6000,6 +6000,18 @@ textarea.form-control-lg {
   animation: var(--bs-spinner-animation-speed) linear infinite var(--bs-spinner-animation-name);
 }
 
+.devicon-csharp-plain.colored, .devicon-unity-original.colored {
+  color: #6c757d !important;
+}
+
+.devicon-csharp-plain.colored {
+  margin-left: -3px;
+}
+
+.devicon-csharp-plain:before, .devicon-unity-original:before {
+  font-size: 46px;
+}
+
 @keyframes spinner-border {
   to {
     transform: rotate(360deg) /* rtl:ignore */;
